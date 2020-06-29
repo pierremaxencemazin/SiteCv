@@ -38,6 +38,7 @@ ul li:hover{
     -webkit-text-fill-color: transparent;
    */
    color:azure;
+   
 }
 .centrage{
 	text-align: center;
@@ -60,7 +61,8 @@ span{
 body{
   background-image: url("../img/fondSite.jpg");
   background-size: cover;
-  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Playfair Display', serif;
 }
 
 #containerGlobal{
@@ -126,4 +128,10 @@ body{
   transform:rotate(90deg);
   padding:0;
 }
+
+/* Zone de test */
+/* .testFont{
+ color: #fff;
+  font-family: 'Quattrocento', serif;
+} */
 
