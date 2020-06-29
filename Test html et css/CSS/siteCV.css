@@ -1,3 +1,28 @@
+ul{
+  /* Fallback si dégradé non dispo*/
+  background:#D62300;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  
+
+  /* Dégradés */
+  background: -webkit-linear-gradient(#F65E01,#D62300);
+  background: -moz-linear-gradient(#F65E01,#D62300);
+  background: -o-linear-gradient(#F65E01,#D62300);
+  background: linear-gradient(#F65E01,#D62300);
+}
+ul li:hover{
+  background: #444444;
+  background: -webkit-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+  background: -moz-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+  background: -o-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+  background: linear-gradient(to right,#222,#555 5%,#555 95%,#222 100%);
+  
+}
+
 #photoId{
 	height: 20%;
   width: 20%;
@@ -18,11 +43,6 @@
 	text-align: center;
 }
 
-ul{
-	display: flex;
-	justify-content: space-around;
-	list-style-type: none;
-}
 
 .alignementTitre{
   margin-left: 25%;
@@ -38,7 +58,7 @@ span{
 }
 
 body{
-  background-image: url("fondSite.jpg");
+  background-image: url("../img/fondSite.jpg");
   background-size: cover;
   font-family: 'Indie Flower', cursive;
 }
